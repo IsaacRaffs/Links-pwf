@@ -1,0 +1,37 @@
+button{
+    display: block;
+    margin-left: auto;
+}
+
+body{
+    text-align: center;
+    background-color: grey;
+}
+
+a:link {
+    color:blue;
+    text-decoration: none;
+
+}
+a:visited{
+    color: blue;
+    text-decoration: none;
+}
+a:active {
+    color: rgb(247, 0, 255);
+    text-decoration: inline;
+}
+a:hover { 
+    color: rgb(145, 255, 0);
+    text-decoration: underline;
+}
+
+#twitter{
+    list-style-image: url(twitter.png);
+}
+#linkedin{
+    list-style-image: url(linkedin.png);
+}
+#github{
+    list-style-image: url(github.png);
+}
